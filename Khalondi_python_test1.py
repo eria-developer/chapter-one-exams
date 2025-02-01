@@ -13,7 +13,7 @@ output = '-'.join(words)
 print(output)
 
 #19
-email_address=input("e.g. student@school.com")
+email_address=input("Enter email: e.g. student@school.com")
 username ,domain = email_address.split("@")
 print("Your username is",username)
 print("Your domain is",domain)
