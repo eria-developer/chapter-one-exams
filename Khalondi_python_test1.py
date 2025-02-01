@@ -4,7 +4,7 @@
 fullname=max(input("What is your name?").lower())
 favorite_number=(input("What is your favorite number?"))
 handle= fullname[:4] + favorite_number + "traac"
-print(handle)
+print("Here's your handle", handle)
 
 #18
 sentence = input("Enter a sentence: ")
@@ -15,8 +15,8 @@ print(output)
 #19
 email_address=input("e.g. student@school.com")
 username ,domain = email_address.split("@")
-print(username)
-print(domain)
+print("Your username is",username)
+print("Your domain is",domain)
 
 #17
 customer_name = input("Hello, welcome to the cinema! What is your name? ")
